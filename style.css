@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+#header {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#header img {
+  width: 10em;
+  height: 4.5em;
+  margin: 0em;
+  border-radius: 0;
+  border-bottom-right-radius: 0.5em;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 100%;
+  background-color: #2596be;
+  color: #252753;
+  padding: 0.5em;
+}
+#outdoor-cleaning {
+  margin-left: 0.5em;
+  height: 100%;
+  width: 49%;
+}
+.second-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #2596be;
+  color: #252753;
+  align-items: center;
+}
+.side-by-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(213, 232, 249);
+  flex-grow: 1;
+  height: fit-content;
+  padding: 1em;
+  border-radius: 1em;
+  border: solid;
+  border-color: black;
+}
+#trash-can {
+  height: 100%;
+  width: 48%;
+  margin-right: 0.5em;
+}
+img {
+  border-radius: 0.5em;
+  height: 20em;
+  width: 15em;
+}
+#header-elements {
+  list-style: none;
+  padding-left: 0.5em;
+  margin-bottom: 1.5em;
+}
+ul a {
+  border-radius: 0.5em;
+  margin: 0.2em;
+  padding: 1em;
+  text-decoration: none;
+  background-color: rgb(213, 232, 249);
+  color: #252753;
+}
+.sign-up {
+    font-weight: bold;
+  background-color: rgb(236, 141, 141);
+}
+#home-button {
+  width: 10em;
+}
+.before-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
